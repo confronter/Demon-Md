@@ -11,21 +11,21 @@ global.botnumber = "254111728536"
 global.confirmcode = ""
 
 global.owner = [
-  ['254736958034', '👑 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑👑', true],
-  ['254111728536', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254787002739', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['923470027813', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254102300454', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254796283064', '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡 𝔠𝔯𝔢𝔞𝔱𝔬𝔯👑', true],
+  ['254111728536', '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡', true],
+  ['254796283064', '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡', true],
+  ['254111728536', '𝙳𝙴𝙼𝙾𝙽 𝙼𝙳', true],
+  ['254796283064', '𝙳𝙴𝙼𝙾𝙽 𝙼𝙳', true],
 ];
 
 global.suittag = ['254111728536'];
 global.prems = ['254111728536'];
 
-global.packname = '𒁂⃝ᰲ𝐊𝐇𝐀𝐋𝐈𝐃©_🇨🇺⃝𝐌𝚯𝐃͢𝐙™ ͟͞';
-global.author = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.wm = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.igfg = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.wait = '*[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.packname = 'ℭ𝔬𝔫𝔣𝔯𝔬𝔫𝔱𝔢𝔯';
+global.author = '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡';
+global.wm = '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡';
+global.igfg = '𝔇𝔢𝔪𝔬𝔫 𝔅𝔬𝔱';
+global.wait = '*[❗] 𝔇𝔢𝔪𝔬𝔫 𝔩𝔬𝔞𝔡𝔦𝔫𝔤...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -45,14 +45,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓`;
-global.gt = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.mysticbot = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.md = 'https://github.com/Khalid-niccur';
-global.mysticbot = 'https://github.com/Khalid-niccur';
-global.waitt = '*[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
-global.waittt = '*[❗]𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
-global.waitttt = '*[❗]𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝔇𝔢𝔪𝔬𝔫 𝔪𝔡`;
+global.gt = '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡';
+global.mysticbot = '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡';
+global.md = 'https://github.com/confronter';
+global.mysticbot = 'https://github.com/confronter';
+global.waitt = '*[❗] 𝔇𝔢𝔪𝔬𝔫 𝔪𝔡 𝔦𝔰 𝔩𝔬𝔞𝔡𝔦𝔫𝔤...*';
+global.waittt = '*[❗] 𝔇𝔢𝔪𝔬𝔫 𝔪𝔡 𝔦𝔰 𝔩𝔬𝔡𝔦𝔫𝔤..*';
+global.waitttt = '*[❗]𝔇𝔢𝔪𝔬𝔫 𝔪𝔡 𝔦𝔰 𝔩𝔬𝔡𝔦𝔫𝔤...*';
 global.nomorown = '2547111728536';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
