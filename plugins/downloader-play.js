@@ -13,7 +13,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `*◉—⌈🎶🐝 𝗕𝗘𝗘 𝗠𝗨𝗦𝗜𝗖🎶⌋—◉*\n❏ 📌 *𝗧𝗶𝘁𝗹𝗲:* ${yt_play[0].title}
+    const texto1 = `*◉—⌈🎶𝔇𝔢𝔪𝔬𝔫 𝔪𝔲𝔰𝔦𝔠🎶⌋—◉*\n❏ 📌 *𝗧𝗶𝘁𝗹𝗲:* ${yt_play[0].title}
 ❏ 📆 *𝗽𝘂𝗯𝗹𝗶𝘀𝗵𝗲𝗱:* ${yt_play[0].ago}
 ❏ ⌚ *Dur𝗮𝘁𝗶𝗼𝗻:* ${secondString(yt_play[0].duration.seconds)}
 ❏ 👀 *Vi𝗲𝘄𝘀:* ${`${MilesNumber(yt_play[0].views)}`}
