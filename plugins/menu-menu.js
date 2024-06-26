@@ -409,7 +409,7 @@ ${readMore}
 ┣ S⃟ 🎤 _${usedPrefix}𝘀𝗹𝗼𝘄_
 ┣ ⃟ 🎤 _${usedPrefix}𝘀𝗺𝗼𝗼𝘁𝗵_
 ┣ ⃟ 🎤 _${usedPrefix}𝘄𝗵𝗼𝗲𝘃𝗲𝗿_
-┃ *<𝔇𝔢𝔪𝔬𝔫 𝔞𝔲𝔡𝔦𝔬 />*
+┃ *<𝔇𝔢𝔪𝔬𝔫 𝔞𝔲𝔡𝔦𝔬 />
 ┣ ඬ⃟ 🔊 _𝗮𝗱𝗺𝗶𝗻
 ┣ ඬ⃟ 🔊 _𝘀𝗶𝗺𝗽
 ┣ ඬ⃟ 🔊 _𝘀𝗮𝗻𝗮
@@ -425,7 +425,7 @@ ${readMore}
 ┣ ඬ⃟ 🔊 _𝗰𝗮𝗹𝗹_
 ┣ ඬ⃟ 🔊 _𝗸𝗵𝗮𝗹𝗶-𝗱_
 ┣ ඬ⃟ 🔊 _𝗴𝗮𝘆_
-┗━━━𝔯𝔢𝔤𝔞𝔯𝔡𝔰 𝔠𝔬𝔫𝔣𝔯𝔬𝔫𝔱𝔢𝔯`.trim()
+┗━━━𝔯𝔢𝔤𝔞𝔯𝔡𝔰 𝔠𝔬𝔫𝔣𝔯𝔬𝔫𝔱𝔢𝔯`trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
@@ -464,7 +464,7 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓👑',
+title: '𝔇𝔢𝔪𝔬𝔫 𝔪𝔡',
 body: null,
 thumbnail: img,
 sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
