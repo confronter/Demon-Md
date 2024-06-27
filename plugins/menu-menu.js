@@ -19,7 +19,7 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `*  🦇𝔇𝔢𝔪𝔬𝔫 𝔟𝔬𝔱🦇 
+let str = `🦇𝔇𝔢𝔪𝔬𝔫 𝔟𝔬𝔱🦇 
 ║𝗛𝗘𝗟𝗟𝗢 ${taguser}*
 ║𝗢𝘄𝗻𝗲𝗿:ℭ𝔬𝔫𝔣𝔯𝔬𝔫𝔱𝔢𝔯
 ║𝗡𝘂𝗺𝗯𝗲𝗿: wa.me/254796283064
@@ -196,8 +196,8 @@ ${readMore}
 ┣ ⃟ 💟 .𝗰𝗿𝗲𝗮𝘁𝗼𝗿
 ┣ ⃟ 💟 .𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲
 ┣ ⃟ 💟 .𝗴𝗿𝗼𝘂𝗽𝗹𝗶𝘀𝘁
-┣   💟 .𝗴𝗿𝗼𝘂𝗽𝘀𝗼𝗳𝗰
-┣   💟 .𝗹𝗶𝘀𝘁𝗽𝗿𝗲𝗺
+┣  💟 .𝗴𝗿𝗼𝘂𝗽𝘀𝗼𝗳𝗰
+┣  💟 .𝗹𝗶𝘀𝘁𝗽𝗿𝗲𝗺
 ┃ *<𝔦𝔫𝔱𝔢𝔯𝔫𝔢𝔱 𝔪𝔢𝔫𝔲 />*
 ┣ ⃟ 🔍 .𝗮𝗻𝗶𝗺𝗲𝗶𝗻𝗳𝗼
 ┣ ⃟ 🔍 .𝗴𝗶𝗺𝗮𝗴𝗲
@@ -421,9 +421,7 @@ ${readMore}
 ┣ ඬ⃟ 🔊 _𝗳𝘂𝗰𝗸_
 ┣ ඬ⃟ 🔊 _𝗵𝗲𝘆_
 ┣ ඬ⃟ 🔊 _𝗰𝗮𝗹𝗹_
-┣ ඬ⃟ 🔊 _𝗸𝗵𝗮𝗹𝗶-𝗱_
-┣ ඬ⃟ 🔊 _𝗴𝗮𝘆_
-┗━━━𝔯𝔢𝔤𝔞𝔯𝔡𝔰 𝔠𝔬𝔫𝔣𝔯𝔬𝔫𝔱𝔢𝔯`.trim()
+__________`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
