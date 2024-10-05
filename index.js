@@ -1,30 +1,30 @@
-console.log('✅ㅤSTARTING...');
+console.log('[ ℹ️ ] Starting...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
 import {setupMaster, fork} from 'cluster';
-import {watchFile, unwatchFile} from 'fs';
 import cfonts from 'cfonts';
 import {createInterface} from 'readline';
 import yargs from 'yargs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
-const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Bumblebee - Bot\nWhatsApp Bot MD', {
+say('Bumblebee\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot created by Khalid tech`, {
+say(`Sting Like A Bee`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
 
 let isRunning = false;
+
 /**
-* Start a js file
+* Start a JS file
 * @param {String} file `path/to/file`
 */
 function start(file) {
@@ -32,16 +32,17 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  say('Adjust the screen to scan the QR code', {
+  /** say('[ ℹ️ ] Scan the QR code or enter the pairing code in WhatsApp.', {
     font: 'console',
     align: 'center',
-    gradient: ['red', 'magenta']});
+    gradient: ['red', 'magenta']}); **/
 
   setupMaster({
     exec: args[0],
     args: args.slice(1)});
   const p = fork();
   p.on('message', (data) => {
+
     console.log('[RECEIVED]', data);
     switch (data) {
       case 'reset':
@@ -56,7 +57,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤAn unexpected error occurred:', code);
+    console.error('[ ℹ️ ] An unexpected error occurred:', code);
 
     p.process.kill();
     isRunning = false;
@@ -72,7 +73,8 @@ function start(file) {
   if (!opts['test']) {
     if (!rl.listenerCount()) {
       rl.on('line', (line) => {
-        p.emit('message', line.trim());
+       
+ p.emit('message', line.trim());
       });
     }
   }
